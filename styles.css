@@ -61,6 +61,11 @@ body {
 .menuItem > h1 {
     display: none;
     margin-left: 10px;
+    
+}
+
+.menuItem:hover {
+    transform: scale(1.2) translateX(1.2rem);
 }
 
 .sidebar:hover > .menuItem > h1 {
